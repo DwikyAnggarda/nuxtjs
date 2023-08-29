@@ -1,4 +1,11 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "types": [
+	   "@types/node", "@nuxt/types",
+	   "@nuxt/types",
+	  "@nuxtjs/axios",
+	  "vuetify",
+	   "@nuxtjs/auth-next",
+	]
 }

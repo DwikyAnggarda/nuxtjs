@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "@nuxtjs/eslint-config-typescript"
+    ],
+    "rules": {
+        "indent": ["error", "tab"],
+        "no-tabs": "off"
+    }
+}
